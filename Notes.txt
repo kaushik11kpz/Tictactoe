@@ -1,0 +1,37 @@
+AIM
+Tic tac toe
+Parent passing info to child
+Include 3rd party applications and modules inside our application
+
+On npmjs.com
+Use ngx-toastr -> To display error message 
+To install ngx-toastr in Angular , cmd -> npm i ngx-toastr bootstrap
+
+To generate a new component in "components" folder
+cmd - ng generate component components/icon  or ng g c components/icon
+
+To delete a component -> 
+ Delete the folder
+ Remove it from module.ts
+
+npm libraries are imported and configured to allow specific icons for this game.
+libraries - @fortawesome and its varieties
+
+To pass info from parent to child component
+-> We need Input imported in component.ts of the child.
+syntax - > @Input() propertyName : string
+
+ngIf > conditionally render the element whether we should render it or not.
+
+ngSwitch
+
+->Some objects are depended on events ex (click)=""
+->Some objects are depended on properties ex [icon]=""
+
+There are lot of properties in core html we can use. Example hidden = true;
+
+It is very important to have default case in switch statement.
+
+*ngFor is used for looping over an array.
+-> Everything inside *ngFor will be iterated.
+
